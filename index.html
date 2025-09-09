@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saravana Acting Driver - Madurai</title>
+  <meta name="description" content="Pick up, Drop, Local & Outstation car driver service in Madurai. Contact +91 88258 72442">
+  <style>
+    :root{
+      --brand:#b22222;
+      --accent:#ffcc00;
+      --card:#fffdf6;
+      --text:#222;
+      --muted:#555;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg,var(--accent),#ff9a00);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{
+      max-width:1000px;
+      margin:30px auto;
+      padding:22px;
+    }
+    header{
+      text-align:center;
+      color:#4b0f0f;
+    }
+    header h1{margin:0;font-size:36px;letter-spacing:1px}
+    header h2{margin:6px 0 20px;font-size:22px;color:var(--brand)}
+    .card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:0 8px 30px rgba(0,0,0,0.15);
+      display:flex;
+      gap:20px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .left{
+      flex:0 0 180px;
+      text-align:center;
+    }
+    .left img{width:140px;height:140px;object-fit:contain}
+    .right{flex:1;min-width:240px}
+    .services{font-size:20px;color:#114b6b;margin:6px 0 14px;font-weight:600}
+    .address{font-size:18px;margin:6px 0;color:var(--muted)}
+    .contact a{display:inline-block;margin:6px 8px;padding:10px 14px;border-radius:8px;text-decoration:none;border:1px solid rgba(0,0,0,0.06);background:#fff;color:var(--brand);font-weight:700}
+    footer{margin-top:18px;text-align:center;color:#3b1b1b}
+    /* responsive */
+    @media(max-width:640px){
+      .left{flex-basis:120px}
+      header h1{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Saravana Acting Driver</h1>
+      <h2>Madurai</h2>
+    </header>
+
+    <main class="card" role="main">
+      <div class="left" aria-hidden="true">
+        <img src="driver-icon.png" alt="Driver icon">
+        <p style="margin-top:8px;font-weight:700">Pick up • Drop • Local • Outstation</p>
+      </div>
+
+      <div class="right">
+        <div class="services">Pick up, Drop, Local, Outstation car Driver service</div>
+        <div class="address">
+          20, Karajar Street, Villipuram, Madurai - 625012
+        </div>
+
+        <div class="contact" style="margin-top:12px">
+          <a href="tel:+918825872442">📞 +91 88258 72442</a>
+          <a href="mailto:saravanatravelsmdu@gmail.com">✉️ saravanatravelsmdu@gmail.com</a>
+          <a href="https://maps.google.com/?q=Madurai" target="_blank" rel="noopener">📍 Open Map</a>
+        </div>
+
+        <div style="margin-top:16px">
+          <p style="margin:0 0 8px;font-weight:700">Scan to open:</p>
+          <img src="qr.png" alt="QR code" width="140" height="140">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      © 2025 Saravana Acting Driver - Madurai
+    </footer>
+  </div>
+</body>
+</html>
